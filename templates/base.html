@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <img src="" alt="">
+        <a href="/acerca">Acerca de</a>
+        <a href="/libros">Libros</a>
+        <a href="/tienda">Tienda</a>
+        <a href="/redes-y-contactos">Redes y Contacto</a>
+    </nav>
+    {% block contents %}
+    {% endblock %}
+
+    <footer>
+        <h3>This is the footer</h3>
+    </footer>
+</body>
+</html>
